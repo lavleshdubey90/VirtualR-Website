@@ -1,3 +1,3 @@
 #VirtualR Website
 
-Live Site =>
+Live Site => https://lavlesh-virtualr.netlify.app/
