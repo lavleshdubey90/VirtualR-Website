@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .themeColor {
+        @apply bg-gradient-to-tr from-indigo-600 to-pink-600 bg-clip-text text-transparent;
+    }
+
+    .themeBgColor {
+        @apply bg-orange-500;
+    }
+
+    .gradientColor {
+        @apply bg-gradient-to-tr from-indigo-600 to-pink-600;
+    }
+}
+
+:root {
+    font-family: "Poppins";
+    color-scheme: dark;
+    background-color: #121212;
+}
